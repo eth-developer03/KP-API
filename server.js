@@ -5,7 +5,13 @@ require('dotenv').config();
 const r = express.Router();
 const Model = require('./model');
 const all = require('./all');
-
+const cors = require('cors');
+const corsOptions = {
+  origin: 'http://localhost:3000',
+  credentials: true,
+  optionSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
 const alldata = require('./products.json');
 app.use('/api/test', all);
 
