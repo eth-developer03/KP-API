@@ -16,10 +16,13 @@ const alldata = require('./products.json');
 app.use('/api/test', all);
 
 async function main() {
-  await mongoose.connect(process.env.URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  });
+  await mongoose.connect(
+    'mongodb+srv://pandeykartik697:msoMv8l1eNkbETC2@api-database.y1ynm25.mongodb.net/api-database?retryWrites=true&w=majority&appName=API-DATABASE',
+    {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    }
+  );
 }
 
 const start = async () => {
@@ -36,6 +39,6 @@ main()
   .then(() => start())
   .catch((error) => console.error('Error connecting to MongoDB:', error));
 
-app.listen(process.env.PORT, () => {
-  console.log(`server is on http://localhost:${process.env.PORT}`);
+app.listen(5000, () => {
+  console.log(`server is on http://localhost:$5000`);
 });
