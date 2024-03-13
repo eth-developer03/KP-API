@@ -1,0 +1,89 @@
+[{
+    "username": "Rohan",
+    "age":23,
+    "followers":12,
+    "location":"Mumbai",
+    "gender":"Male"
+},
+{
+    "username": "Pranith",
+    "age":33,
+    "followers":400,
+    "location":"Banglore",
+    "gender":"Male"
+},
+{
+    "username": "Aayushi",
+    "age":20,
+    "followers":12000,
+    "location":"Chembur",
+    "gender":"Female"
+},
+
+{
+    "username": "Kartik",
+    "age":20,
+    "followers":353,
+    "location":"Mira Road",
+    "gender":"Male"
+},
+{
+    "username": "Mitesh",
+    "age":32,
+    "followers":290,
+    "location":"London",
+    "gender":"Male"
+},
+{
+    "username": "Isha",
+    "age":43,
+    "followers":990,
+    "location":"Gandhinagar",
+    "gender":"Female"
+},
+{
+    "username": "Poonam",
+    "age":23,
+    "followers":128,
+    "location":"Kanpur",
+    "gender":"Female"
+},
+{
+    "username": "Ishaan",
+    "age":27,
+    "followers":888,
+    "location":"Delhi",
+    "gender":"Male"
+},
+{
+    "username": "Tarun",
+    "age":89,
+    "followers":903,
+    "location":"Thane",
+    "gender":"Male"
+},
+{
+    "username": "Yugti",
+    "age":49,
+    "followers":4000,
+    "location":"Bhopal",
+    "gender":"Female"
+},
+{
+    "username": "Nikhil",
+    "age":9,
+    "followers":56,
+    "location":"Lucknow",
+    "gender":"Male"
+},
+{
+    "username": "Evan",
+    "age":11,
+    "followers":430,
+    "location":"Mumbai",
+    "gender":"Male"
+}
+
+
+
+]
